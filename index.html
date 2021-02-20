@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir archivos</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="principal">
+        <h1>Subir archivos con js y php</h1>
+
+        <form action="" id="form_subir" enctype="multipart/form-data" method="post">
+            <div class="form-1-2">
+                <label for="archivo">Archivo a subir:</label>
+                <input type="file" id="archivo" name="archivo" required>
+            </div>
+            <div class="barra">
+                <div class="barra_azul" id="barra_estado">
+                    <span></span>
+                </div>
+            </div>
+    
+            <div class="acciones">
+                <input type="submit" class="btn" id="subir" value="enviar">
+                <input type="button" class="cancel" id="cancelar" value="Cancelar">
+            </div>
+        </form>
+        <a href="#" id="radom">Randon</a>
+    </div>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
